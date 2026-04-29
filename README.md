@@ -13,7 +13,7 @@
 
 ## About Me
 
-- 🎓 Software Engineering D22 - Posts and Telecommunications Institute of Technology (PTIT)
+- 🎓 Software Engineering D22 @ Posts and Telecommunications Institute of Technology (PTIT)
 - 💻 I build clean, scalable web applications
 - ⚙️ Focused on backend architecture, REST API design, authentication, and database workflows
 - 🎨 Also interested in polished UI, responsive layouts, and product-ready experiences
@@ -54,10 +54,12 @@
 
 | Project | Description | Tech |
 |---|---|---|
-| **Attendance QR Backend** | Production-style QR attendance backend with class management, sessions, QR check-in, absence requests, notifications, fraud detection, and OpenAPI docs | Spring Boot, MySQL, Flyway, JPA |
-| **Cafe24 Custom Storefront** | Custom ecommerce UI components, responsive headers, category menus, product pages, sliders, and maintainable CSS structure | HTML, CSS, JavaScript, jQuery |
-| **Flutter Canteen App** | Mobile app architecture using BLoC/Provider with persistent settings flow and clean state management | Flutter, Dart |
-| **Vue Admin Dashboard** | Dashboard UI with reusable components, search, filter, pagination, and clean frontend structure | Vue.js, Pinia |
+| [**Attendance-Check-By-QRcode**](https://github.com/binkadev/Attendance-Check-By-QRcode) | Production-style QR attendance backend with class management, attendance sessions, QR check-in, absence requests, notification workflow, fraud detection, and OpenAPI-oriented API design | Java, Spring Boot, MySQL, Flyway, JPA |
+| [**HTTM-AI**](https://github.com/binkadev/HTTM-AI) | AI-focused web application repository selected as current product/system work | AI App, Web App |
+| [**quanliphongtro**](https://github.com/binkadev/quanliphongtro) | Rental room management system with practical CRUD-style business workflows | Web App, Database |
+| [**Webquizz**](https://github.com/binkadev/Webquizz) | Quiz web application project for practicing frontend/backend product flow | Web App |
+| [**Omnifood**](https://github.com/binkadev/Omnifood) | Responsive landing page project focused on layout, UI polish, and clean frontend structure | HTML, CSS, JavaScript |
+| [**CSDLPT_BITCOIN**](https://github.com/binkadev/CSDLPT_BITCOIN) | Database/course project related to distributed database concepts and Bitcoin data modeling | Database, SQL |
 
 ---
 
