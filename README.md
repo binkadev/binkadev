@@ -13,7 +13,7 @@
 
 ## About Me
 
-- 🎓 Software Engineering D22 @ PTIT
+- 🎓 Software Engineering D22 - Posts and Telecommunications Institute of Technology (PTIT)
 - 💻 I build clean, scalable web applications
 - ⚙️ Focused on backend architecture, REST API design, authentication, and database workflows
 - 🎨 Also interested in polished UI, responsive layouts, and product-ready experiences
