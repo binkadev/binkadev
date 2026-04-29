@@ -1,36 +1,34 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:0D1117&height=210&section=header&text=Tran%20Hoang%20Hai&fontSize=54&fontAlignY=36&animation=fadeIn&fontColor=F0F6FC&desc=binkadev%20%E2%80%A2%20Software%20Engineering%20D22%20%40%20PTIT&descSize=17&descAlignY=56&descColor=8B949E" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05070A,45:0D1B2A,75:1F6FEB,100:05070A&height=220&section=header&text=Tran%20Hoang%20Hai&fontSize=54&fontAlignY=36&animation=fadeIn&fontColor=F0F6FC&desc=binkadev%20%E2%80%A2%20Software%20Engineering%20D22%20%40%20PTIT&descSize=17&descAlignY=56&descColor=8B949E" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=820&lines=Full-stack+Developer+in+progress;Backend+API+%E2%80%A2+Clean+UI+%E2%80%A2+Product+Mindset;Code+with+discipline.+Build+with+taste.+Ship+with+purpose." alt="Typing SVG" />
-
-<br />
-<br />
-
-<a href="https://github.com/binkadev?tab=followers">
-  <img src="https://img.shields.io/github/followers/binkadev?label=Followers&style=flat-square&color=1F6FEB&labelColor=0D1117" />
-</a>
-<a href="https://github.com/binkadev?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-Explore-30363D?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&lines=Code+with+discipline.;Build+with+taste.;Ship+with+purpose.;Backend+API+%E2%80%A2+Clean+UI+%E2%80%A2+Product+Mindset" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## About Me
+## Opening Scene
 
-- 🎓 **Software Engineering D22 @ Posts and Telecommunications Institute of Technology (PTIT)**
-- 💻 Building **clean, scalable web applications** from backend APIs to usable interfaces
-- ⚙️ Focused on **Spring Boot, REST API design, authentication, database workflows, and clean architecture**
-- 🎨 Interested in **UI details, responsive layouts, product thinking, and practical user experience**
-- 🚀 Currently improving in **Spring Boot, Vue.js, Flutter, Golang, and system design**
+I am a **Software Engineering D22 student at Posts and Telecommunications Institute of Technology (PTIT)**, building my path as a full-stack developer.
+
+I enjoy turning ideas into practical software — from backend APIs and database workflows to clean, usable interfaces. My focus is not only making things work, but making them structured, maintainable, and ready to grow.
 
 > **Code with discipline. Build with taste. Ship with purpose.**
 
 ---
 
-## Tech Stack
+## Main Focus
+
+```txt
+Backend Architecture        REST API Design        Authentication
+Database Workflows          Clean Code             UI Systems
+Product Thinking            System Design          Practical Web Apps
+```
+
+---
+
+## Toolkit
 
 <div align="center">
 
@@ -50,7 +48,7 @@
 
 ---
 
-## Featured Projects
+## Featured Repositories
 
 <div align="center">
 
@@ -72,21 +70,17 @@
 
 ---
 
-## Current Focus
+## Current Direction
 
-```txt
-Backend Architecture
-REST API Design + OpenAPI/Swagger
-Authentication & Authorization
-Database Design
-Clean Code
-Frontend UI Systems
-Production-ready Web Applications
-```
+- Build backend systems with clearer structure and stronger business logic
+- Improve API documentation and testing habits
+- Design cleaner frontend components and responsive interfaces
+- Keep projects readable for both developers and reviewers
+- Turn student projects into portfolio-ready repositories
 
 ---
 
-## GitHub Stats
+## GitHub Snapshot
 
 <div align="center">
 
@@ -122,6 +116,6 @@ Production-ready Web Applications
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:0D1117&height=110&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:05070A,45:0D1B2A,75:1F6FEB,100:05070A&height=110&section=footer" />
 
 </div>
