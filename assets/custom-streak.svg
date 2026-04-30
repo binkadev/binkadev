@@ -1,33 +1,87 @@
-<svg width="760" height="260" viewBox="0 0 760 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Custom coding streak 200 days">
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Glassmorphism custom coding streak 200 days">
   <defs>
-    <linearGradient id="cardGlow" x1="0" y1="0" x2="760" y2="260" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1B1B2A"/>
-      <stop offset="0.55" stop-color="#1B1B2A"/>
-      <stop offset="1" stop-color="#121826"/>
+    <linearGradient id="pageBg" x1="40" y1="28" x2="860" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0D1328"/>
+      <stop offset="1" stop-color="#17102B"/>
     </linearGradient>
-    <linearGradient id="ringGradient" x1="310" y1="55" x2="450" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#70A5FD"/>
-      <stop offset="1" stop-color="#BF91F3"/>
+    <linearGradient id="glass" x1="62" y1="48" x2="838" y2="276" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.085"/>
     </linearGradient>
+    <linearGradient id="glassStroke" x1="66" y1="48" x2="834" y2="278" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="0.48" stop-color="#93C5FD" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#C084FC" stop-opacity="0.38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="112" y1="263" x2="788" y2="263" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="386" y1="72" x2="528" y2="224" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(146 102) rotate(42) scale(232 184)">
+      <stop stop-color="#22D3EE" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 246) rotate(180) scale(260 186)">
+      <stop stop-color="#A855F7" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="900" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <filter id="blur" x="-80" y="-80" width="1060" height="480" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
   </defs>
 
-  <rect width="760" height="260" rx="16" fill="url(#cardGlow)"/>
-  <line x1="260" y1="55" x2="260" y2="205" stroke="#D8D8E8" stroke-width="1" opacity="0.9"/>
-  <line x1="500" y1="55" x2="500" y2="205" stroke="#D8D8E8" stroke-width="1" opacity="0.9"/>
+  <rect width="900" height="320" rx="0" fill="transparent"/>
 
-  <text x="130" y="98" text-anchor="middle" fill="#70A5FD" font-size="39" font-weight="800" font-family="Arial, Helvetica, sans-serif">200</text>
-  <text x="130" y="143" text-anchor="middle" fill="#70A5FD" font-size="20" font-family="Arial, Helvetica, sans-serif">Coding Days</text>
-  <text x="130" y="183" text-anchor="middle" fill="#38BDAE" font-size="16" font-family="Arial, Helvetica, sans-serif">2025-10-12 - Present</text>
+  <g filter="url(#shadow)">
+    <rect x="36" y="28" width="828" height="264" rx="30" fill="url(#pageBg)"/>
+  </g>
 
-  <circle cx="380" cy="108" r="58" stroke="#273655" stroke-width="8"/>
-  <circle cx="380" cy="108" r="58" stroke="url(#ringGradient)" stroke-width="8" stroke-linecap="round" stroke-dasharray="310 60" transform="rotate(-85 380 108)"/>
-  <path d="M380 40 C390 51 390 64 380 74 C370 64 370 51 380 40 Z" fill="#70A5FD"/>
-  <circle cx="380" cy="58" r="10" fill="#1B1B2A"/>
-  <text x="380" y="110" text-anchor="middle" fill="#BF91F3" font-size="39" font-weight="800" font-family="Arial, Helvetica, sans-serif">200</text>
-  <text x="380" y="155" text-anchor="middle" fill="#BF91F3" font-size="22" font-weight="700" font-family="Arial, Helvetica, sans-serif">Current Streak</text>
-  <text x="380" y="195" text-anchor="middle" fill="#38BDAE" font-size="16" font-family="Arial, Helvetica, sans-serif">Updated 2026-04-30</text>
+  <g filter="url(#blur)">
+    <circle cx="145" cy="105" r="112" fill="url(#cyanGlow)"/>
+    <circle cx="758" cy="240" r="132" fill="url(#purpleGlow)"/>
+  </g>
 
-  <text x="630" y="98" text-anchor="middle" fill="#70A5FD" font-size="39" font-weight="800" font-family="Arial, Helvetica, sans-serif">200</text>
-  <text x="630" y="143" text-anchor="middle" fill="#70A5FD" font-size="20" font-family="Arial, Helvetica, sans-serif">Longest Streak</text>
-  <text x="630" y="183" text-anchor="middle" fill="#38BDAE" font-size="16" font-family="Arial, Helvetica, sans-serif">Since 2025-10-12</text>
+  <rect x="58" y="48" width="784" height="224" rx="26" fill="url(#glass)"/>
+  <rect x="58.75" y="48.75" width="782.5" height="222.5" rx="25.25" stroke="url(#glassStroke)" stroke-width="1.5"/>
+
+  <circle cx="112" cy="92" r="5" fill="#22D3EE"/>
+  <circle cx="130" cy="92" r="5" fill="#60A5FA"/>
+  <circle cx="148" cy="92" r="5" fill="#C084FC"/>
+
+  <text x="90" y="128" fill="#F8FAFC" font-size="28" font-weight="800" font-family="Inter, Arial, Helvetica, sans-serif">Coding Streak</text>
+  <text x="90" y="153" fill="#CBD5E1" font-size="14" font-family="Inter, Arial, Helvetica, sans-serif">Glassmorphism daily counter for binkadev.</text>
+
+  <rect x="90" y="178" width="172" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="112" cy="196" r="5" fill="#34D399"/>
+  <text x="126" y="201" fill="#A7F3D0" font-size="13" font-weight="700" font-family="Inter, Arial, Helvetica, sans-serif">AUTO UPDATED</text>
+
+  <circle cx="452" cy="155" r="82" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.13"/>
+  <circle cx="452" cy="155" r="64" stroke="#1E293B" stroke-width="12"/>
+  <circle cx="452" cy="155" r="64" stroke="url(#ring)" stroke-width="12" stroke-linecap="round" stroke-dasharray="220.32 181.80" transform="rotate(-90 452 155)"/>
+  <text x="452" y="139" text-anchor="middle" fill="#94A3B8" font-size="15" font-weight="700" letter-spacing="1.2" font-family="Inter, Arial, Helvetica, sans-serif">DAY</text>
+  <text x="452" y="176" text-anchor="middle" fill="#F8FAFC" font-size="48" font-weight="900" font-family="Inter, Arial, Helvetica, sans-serif">200</text>
+  <text x="452" y="202" text-anchor="middle" fill="#C4B5FD" font-size="14" font-weight="700" font-family="Inter, Arial, Helvetica, sans-serif">current run</text>
+
+  <rect x="626" y="86" width="154" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="648" y="109" fill="#94A3B8" font-size="12" font-weight="700" letter-spacing="1" font-family="Inter, Arial, Helvetica, sans-serif">TOTAL</text>
+  <text x="648" y="131" fill="#F8FAFC" font-size="25" font-weight="900" font-family="Inter, Arial, Helvetica, sans-serif">200 days</text>
+
+  <rect x="626" y="152" width="154" height="54" rx="18" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="648" y="175" fill="#94A3B8" font-size="12" font-weight="700" letter-spacing="1" font-family="Inter, Arial, Helvetica, sans-serif">BEST</text>
+  <text x="648" y="197" fill="#F8FAFC" font-size="25" font-weight="900" font-family="Inter, Arial, Helvetica, sans-serif">200 days</text>
+
+  <text x="90" y="244" fill="#94A3B8" font-size="13" font-family="Inter, Arial, Helvetica, sans-serif">Started 2025-10-12 • Updated 2026-04-30</text>
+  <rect x="90" y="254" width="676" height="8" rx="4" fill="#0F172A"/>
+  <rect x="90" y="254" width="370.12" height="8" rx="4" fill="url(#accent)"/>
 </svg>
