@@ -109,13 +109,6 @@ Cinematic personal portfolio for project storytelling, developer identity, moder
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/binkadev/binkadev/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
-## 🎯 Current Focus
-
-- Building production-like backend APIs with **Java** and **Spring Boot**
-- Improving API documentation, validation, testing, and database workflows
-- Turning the **Attendance QR** project into a strong CV project
-- Building a cinematic portfolio that reflects taste, discipline, and product thinking
-
 > [...more about me](https://hoanghai-portfolio.vercel.app)
 
 <br />
