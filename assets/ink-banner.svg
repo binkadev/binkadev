@@ -1,71 +1,26 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="paperBg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f7f1df"/>
-      <stop offset="0.48" stop-color="#eee4cf"/>
-      <stop offset="1" stop-color="#d9e2e8"/>
-    </linearGradient>
-    <linearGradient id="ink" x1="360" y1="60" x2="820" y2="210" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#07090c"/>
-      <stop offset="0.5" stop-color="#1c2026"/>
-      <stop offset="1" stop-color="#05070a"/>
-    </linearGradient>
-    <filter id="paperNoise" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="12" result="noise"/>
-      <feColorMatrix type="matrix" in="noise" values="0 0 0 0 0.45 0 0 0 0 0.38 0 0 0 0 0.25 0 0 0 0.08 0" result="grain"/>
-      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
-    </filter>
-    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
-    <filter id="inkShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#111827" flood-opacity="0.18"/>
-    </filter>
-    <style>
-      .title { font-family: Georgia, 'Times New Roman', serif; font-weight: 900; letter-spacing: 1.5px; }
-      .subtitle { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: .4px; }
-      .fade { animation: fadeIn 1.8s ease both; }
-      .float { animation: float 6s ease-in-out infinite; }
-      .stroke { stroke-dasharray: 860; stroke-dashoffset: 860; animation: draw 3.2s ease forwards; }
-      @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-      @keyframes draw { to { stroke-dashoffset: 0; } }
-    </style>
-  </defs>
-
-  <rect width="1200" height="340" fill="url(#paperBg)" filter="url(#paperNoise)"/>
-
-  <g opacity="0.92">
-    <path d="M0 242C82 218 134 193 205 198C278 203 322 239 392 237C468 234 526 184 596 178C672 171 717 216 779 221C865 228 941 170 1018 166C1085 163 1135 188 1200 206V340H0V242Z" fill="#2f3740" fill-opacity="0.18"/>
-    <path d="M0 279C90 244 155 224 235 231C315 238 374 260 452 250C534 240 587 210 664 216C743 222 790 248 866 250C953 252 1037 217 1120 214C1152 213 1178 218 1200 224V340H0V279Z" fill="#171b20" fill-opacity="0.13"/>
-    <path d="M0 305C85 288 160 274 248 278C334 282 390 308 482 300C580 292 641 252 727 257C821 263 895 305 990 303C1073 301 1137 279 1200 272V340H0V305Z" fill="#080a0d" fill-opacity="0.11"/>
-  </g>
-
-  <ellipse class="float" cx="170" cy="122" rx="210" ry="50" fill="#fffaf0" fill-opacity="0.44" filter="url(#blur)"/>
-  <ellipse class="float" cx="1030" cy="112" rx="240" ry="58" fill="#ffffff" fill-opacity="0.32" filter="url(#blur)"/>
-  <ellipse class="float" cx="650" cy="260" rx="330" ry="42" fill="#ffffff" fill-opacity="0.24" filter="url(#blur)"/>
-
-  <circle cx="1084" cy="78" r="31" fill="#111827" fill-opacity="0.09"/>
-  <circle cx="1098" cy="70" r="23" fill="#f7f1df"/>
-
-  <g opacity="0.42">
-    <path d="M92 70C111 96 119 122 116 150C113 179 102 198 86 221" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
-    <path d="M107 96C135 99 152 88 172 68" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
-    <path d="M110 126C141 132 169 124 195 106" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
-    <path d="M108 155C138 159 161 151 184 137" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
-  </g>
-
-  <path class="stroke" d="M360 231C430 252 512 259 608 257C700 255 773 246 843 226" stroke="#111827" stroke-opacity="0.24" stroke-width="10" stroke-linecap="round"/>
-  <path d="M383 238C462 248 536 250 612 249C694 248 757 242 815 232" stroke="#f7f1df" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
-
-  <g class="fade" filter="url(#inkShadow)">
-    <text x="600" y="154" text-anchor="middle" class="title" font-size="90" fill="url(#ink)">BinkaDev</text>
-    <text x="600" y="212" text-anchor="middle" class="subtitle" font-size="25" fill="#20262d">Tran Hoang Hai · Software Engineering D22 at PTIT</text>
-  </g>
-
-  <g opacity="0.34">
-    <circle cx="286" cy="86" r="3" fill="#111827"/>
-    <circle cx="315" cy="78" r="1.8" fill="#111827"/>
-    <circle cx="889" cy="91" r="2.2" fill="#111827"/>
-    <circle cx="915" cy="112" r="1.6" fill="#111827"/>
-    <circle cx="244" cy="210" r="2.1" fill="#111827"/>
-  </g>
+<svg width="1600" height="520" viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#2b2926"/><stop offset=".5" stop-color="#111"/><stop offset="1" stop-color="#020304"/></radialGradient>
+<linearGradient id="cream" x1="250" y1="90" x2="1370" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#fff7e8"/><stop offset=".55" stop-color="#e8d5b8"/><stop offset="1" stop-color="#fff3df"/></linearGradient>
+<linearGradient id="shine" x1="0" x2="1"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="8"/><feColorMatrix values=".25 0 0 0 0 0 .25 0 0 0 0 0 .25 0 0 0 0 0 .25 0"/><feBlend in="SourceGraphic" mode="overlay"/></filter>
+<filter id="glow"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#fff0d4" flood-opacity=".35"/><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".8"/></filter>
+<filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+<mask id="m"><rect width="1600" height="520" fill="black"/><text x="800" y="300" text-anchor="middle" class="title" font-size="230" fill="white">BinkaDev</text></mask>
+<style>
+.title{font-family:'Brush Script MT','Segoe Script','Lucida Handwriting',cursive;font-weight:900;letter-spacing:-8px}.sub{font-family:Georgia,serif;font-weight:800;letter-spacing:9px}.draw{stroke-dasharray:1800;stroke-dashoffset:1800;animation:draw 2.7s cubic-bezier(.16,1,.3,1) forwards}.fill{opacity:0;animation:fill .9s ease forwards 1.45s,pulse 4.5s ease-in-out infinite 2.6s}.subg{opacity:0;transform:translateY(14px);animation:up .9s ease forwards 2.1s}.line{stroke-dasharray:1000;stroke-dashoffset:1000;animation:draw 1.35s ease forwards 2.15s}.sweep{animation:sweep 3.4s ease-in-out infinite 2.35s}.speed{stroke-dasharray:1200;stroke-dashoffset:1200;opacity:0;animation:speed 1.4s ease-out forwards .9s}.mist{animation:mist 9s ease-in-out infinite}.spark{opacity:0;animation:spark 3s ease-in-out infinite}@keyframes draw{to{stroke-dashoffset:0}}@keyframes fill{to{opacity:1}}@keyframes pulse{50%{opacity:.9}}@keyframes up{to{opacity:1;transform:translateY(0)}}@keyframes sweep{0%{transform:translateX(-520px) skewX(-18deg);opacity:0}20%{opacity:.85}55%{opacity:.2}100%{transform:translateX(1850px) skewX(-18deg);opacity:0}}@keyframes speed{20%{opacity:.9}to{opacity:.65;stroke-dashoffset:0}}@keyframes mist{50%{transform:translateX(35px);opacity:.26}}@keyframes spark{0%,100%{opacity:0;transform:scale(.6)}25%,45%{opacity:.9;transform:scale(1)}}
+</style>
+</defs>
+<rect width="1600" height="520" fill="url(#bg)"/><rect width="1600" height="520" fill="#080808" filter="url(#grain)" opacity=".95"/>
+<path d="M-90 412C150 310 315 230 535 180C760 128 965 82 1170 15C1325-36 1450-70 1700-120" stroke="#000" stroke-width="85" stroke-linecap="round" opacity=".58"/>
+<path d="M-80 78C190 175 450 212 720 210C1010 208 1240 150 1660 25" stroke="#050505" stroke-width="92" stroke-linecap="round" opacity=".72"/>
+<path d="M0 450C165 415 250 360 400 370C540 380 610 450 780 430C930 413 1000 340 1160 345C1310 350 1425 405 1600 385V520H0Z" fill="#d0c5b5" opacity=".11"/>
+<ellipse class="mist" cx="260" cy="112" rx="330" ry="55" fill="#eee4d2" opacity=".16" filter="url(#blur)"/><ellipse class="mist" cx="1210" cy="132" rx="380" ry="65" fill="#eee4d2" opacity=".13" filter="url(#blur)"/>
+<g stroke="#efe4d2" stroke-width="4" stroke-linecap="round" fill="none" opacity=".7"><path d="M1290 84C1304 72 1320 72 1332 84"/><path d="M1380 104C1390 94 1403 94 1414 104"/><path d="M1462 78C1470 71 1479 71 1488 78"/></g>
+<path class="speed" d="M70 406C260 335 430 300 640 282C900 260 1090 218 1520 92" stroke="#fff3df" stroke-width="9" stroke-linecap="round"/>
+<g fill="#fff3df"><circle class="spark" cx="405" cy="98" r="6"/><circle class="spark" style="animation-delay:.4s" cx="515" cy="126" r="4"/><circle class="spark" style="animation-delay:.8s" cx="1040" cy="102" r="5"/><circle class="spark" style="animation-delay:1.1s" cx="1260" cy="220" r="3"/></g>
+<text x="800" y="300" text-anchor="middle" class="title draw" font-size="230" fill="none" stroke="url(#cream)" stroke-width="5" filter="url(#glow)">BinkaDev</text>
+<text x="800" y="300" text-anchor="middle" class="title fill" font-size="230" fill="url(#cream)" filter="url(#glow)">BinkaDev</text>
+<rect class="sweep" x="-540" y="45" width="380" height="300" fill="url(#shine)" mask="url(#m)"/>
+<g class="subg"><text x="800" y="405" text-anchor="middle" class="sub" font-size="35" fill="#efe4d2">Tran Hoang Hai • Software Engineering D22</text><path class="line" d="M395 438C535 424 675 421 815 423C955 425 1080 432 1205 418" stroke="#efe4d2" stroke-width="7" stroke-linecap="round" opacity=".5"/></g>
 </svg>
