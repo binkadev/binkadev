@@ -1,0 +1,71 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paperBg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f1df"/>
+      <stop offset="0.48" stop-color="#eee4cf"/>
+      <stop offset="1" stop-color="#d9e2e8"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="360" y1="60" x2="820" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07090c"/>
+      <stop offset="0.5" stop-color="#1c2026"/>
+      <stop offset="1" stop-color="#05070a"/>
+    </linearGradient>
+    <filter id="paperNoise" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="12" result="noise"/>
+      <feColorMatrix type="matrix" in="noise" values="0 0 0 0 0.45 0 0 0 0 0.38 0 0 0 0 0.25 0 0 0 0.08 0" result="grain"/>
+      <feBlend in="SourceGraphic" in2="grain" mode="multiply"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="inkShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#111827" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .title { font-family: Georgia, 'Times New Roman', serif; font-weight: 900; letter-spacing: 1.5px; }
+      .subtitle { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: .4px; }
+      .fade { animation: fadeIn 1.8s ease both; }
+      .float { animation: float 6s ease-in-out infinite; }
+      .stroke { stroke-dasharray: 860; stroke-dashoffset: 860; animation: draw 3.2s ease forwards; }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#paperBg)" filter="url(#paperNoise)"/>
+
+  <g opacity="0.92">
+    <path d="M0 242C82 218 134 193 205 198C278 203 322 239 392 237C468 234 526 184 596 178C672 171 717 216 779 221C865 228 941 170 1018 166C1085 163 1135 188 1200 206V340H0V242Z" fill="#2f3740" fill-opacity="0.18"/>
+    <path d="M0 279C90 244 155 224 235 231C315 238 374 260 452 250C534 240 587 210 664 216C743 222 790 248 866 250C953 252 1037 217 1120 214C1152 213 1178 218 1200 224V340H0V279Z" fill="#171b20" fill-opacity="0.13"/>
+    <path d="M0 305C85 288 160 274 248 278C334 282 390 308 482 300C580 292 641 252 727 257C821 263 895 305 990 303C1073 301 1137 279 1200 272V340H0V305Z" fill="#080a0d" fill-opacity="0.11"/>
+  </g>
+
+  <ellipse class="float" cx="170" cy="122" rx="210" ry="50" fill="#fffaf0" fill-opacity="0.44" filter="url(#blur)"/>
+  <ellipse class="float" cx="1030" cy="112" rx="240" ry="58" fill="#ffffff" fill-opacity="0.32" filter="url(#blur)"/>
+  <ellipse class="float" cx="650" cy="260" rx="330" ry="42" fill="#ffffff" fill-opacity="0.24" filter="url(#blur)"/>
+
+  <circle cx="1084" cy="78" r="31" fill="#111827" fill-opacity="0.09"/>
+  <circle cx="1098" cy="70" r="23" fill="#f7f1df"/>
+
+  <g opacity="0.42">
+    <path d="M92 70C111 96 119 122 116 150C113 179 102 198 86 221" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+    <path d="M107 96C135 99 152 88 172 68" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+    <path d="M110 126C141 132 169 124 195 106" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+    <path d="M108 155C138 159 161 151 184 137" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <path class="stroke" d="M360 231C430 252 512 259 608 257C700 255 773 246 843 226" stroke="#111827" stroke-opacity="0.24" stroke-width="10" stroke-linecap="round"/>
+  <path d="M383 238C462 248 536 250 612 249C694 248 757 242 815 232" stroke="#f7f1df" stroke-opacity="0.38" stroke-width="3" stroke-linecap="round"/>
+
+  <g class="fade" filter="url(#inkShadow)">
+    <text x="600" y="154" text-anchor="middle" class="title" font-size="90" fill="url(#ink)">BinkaDev</text>
+    <text x="600" y="212" text-anchor="middle" class="subtitle" font-size="25" fill="#20262d">Tran Hoang Hai · Software Engineering D22 at PTIT</text>
+  </g>
+
+  <g opacity="0.34">
+    <circle cx="286" cy="86" r="3" fill="#111827"/>
+    <circle cx="315" cy="78" r="1.8" fill="#111827"/>
+    <circle cx="889" cy="91" r="2.2" fill="#111827"/>
+    <circle cx="915" cy="112" r="1.6" fill="#111827"/>
+    <circle cx="244" cy="210" r="2.1" fill="#111827"/>
+  </g>
+</svg>
