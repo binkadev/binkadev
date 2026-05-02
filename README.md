@@ -84,13 +84,23 @@ Cinematic personal portfolio for project storytelling, developer identity, moder
 
 ## 📊 GitHub Stats
 
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=binkadev&langs_count=10&show_icons=true&theme=onedark&hide=html&layout=compact" alt="binkadev" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=binkadev&theme=github_dark" alt="BinkaDev most used languages" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=binkadev&theme=github_dark" alt="BinkaDev GitHub stats" />
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=binkadev&theme=onedark&show_icons=true&hide_border=true" alt="binkadev" />
+<br />
+<br />
 
-<img align="center" src="https://streak-stats.demolab.com/?user=binkadev&theme=onedark&hide_border=true" alt="binkadev" />
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=binkadev&theme=github_dark" alt="BinkaDev profile details" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=binkadev&bg_color=0d1117&color=38bdf8&line=2563eb&point=ffffff&area=true&hide_border=true" alt="binkadev" />
+<br />
+<br />
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=binkadev&bg_color=0d1117&color=38bdf8&line=2563eb&point=ffffff&area=true&hide_border=true" alt="BinkaDev activity graph" />
+
+<br />
+<br />
+
+<img src="https://streak-stats.demolab.com/?user=binkadev&theme=onedark&hide_border=true" alt="BinkaDev streak stats" />
 
 ## 🐍 Contribution Snake
 
