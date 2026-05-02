@@ -109,8 +109,6 @@ Cinematic personal portfolio for project storytelling, developer identity, moder
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/binkadev/binkadev/output/github-contribution-grid-snake-dark.svg">
 </picture>
 
-> [...more about me](https://hoanghai-portfolio.vercel.app)
-
 <br />
 
 <div align="center">
