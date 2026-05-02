@@ -82,25 +82,18 @@ Cinematic personal portfolio for project storytelling, developer identity, moder
 
 <br />
 
-## 📊 GitHub Stats
+## 📊 GitHub Motion
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=binkadev&theme=github_dark" alt="BinkaDev most used languages" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=binkadev&theme=github_dark" alt="BinkaDev GitHub stats" />
+<div align="center">
 
-<br />
-<br />
-
-<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=binkadev&theme=github_dark" alt="BinkaDev profile details" />
+<img width="92%" src="https://streak-stats.demolab.com?user=binkadev&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=CBD5E1&dates=94A3B8" alt="BinkaDev streak" />
 
 <br />
 <br />
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=binkadev&bg_color=0d1117&color=38bdf8&line=2563eb&point=ffffff&area=true&hide_border=true" alt="BinkaDev activity graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=binkadev&bg_color=0d1117&color=cbd5e1&line=38bdf8&point=ffffff&area=true&area_color=2563eb&hide_border=true&radius=12" alt="BinkaDev activity graph" />
 
-<br />
-<br />
-
-<img src="https://streak-stats.demolab.com/?user=binkadev&theme=onedark&hide_border=true" alt="BinkaDev streak stats" />
+</div>
 
 ## 🐍 Contribution Snake
 
