@@ -9,7 +9,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=270&color=0:020617,35:0F172A,70:2563EB,100:38BDF8&section=header&text=BinkaDev&fontSize=72&fontAlignY=35&fontColor=F8FAFC&animation=fadeIn&desc=Tran%20Hoang%20Hai%20-%20Software%20Engineering%20D22%20at%20PTIT&descSize=18&descAlignY=58&descColor=CBD5E1" />
+<img width="100%" src="https://raw.githubusercontent.com/binkadev/binkadev/master/assets/ink-banner.svg" alt="BinkaDev Chinese ink wash banner" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=23&duration=2400&pause=850&color=38BDF8&center=true&vCenter=true&width=920&lines=Backend-oriented+Software+Engineering+student;Java+Spring+Boot+REST+APIs;Vue+3+TypeScript+Flutter;Code+with+discipline.+Build+with+taste.+Ship+with+purpose." alt="Typing SVG" />
 
